@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: rgb(27, 27, 27);
+  padding-top: 33px;
+}
+
+.title {
+  color: gray;
+}
+
+.lowerflex {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  margin-inline: 12px;
+  color: gray;
+}
+
+.smallinfo {
+  padding-inline: 2px;
+  color: gray;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 550px) { 
+  .main {
+
+  }
+}
+  

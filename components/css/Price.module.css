@@ -1,0 +1,401 @@
+.main {
+    padding: 37px 17px 33px;
+    background: rgb(255, 255, 255);;
+}
+
+.columnholder {
+    display: flex;
+}
+
+.backbutton {
+    position: relative;
+    cursor: pointer;
+    font-size: 27px;
+    color: rgb(227, 227, 227);
+    top: -20px;
+    left: -7px
+}
+
+.backbuttontext {
+    position: absolute;
+    font-size: 14px;
+    top: 5.2px;
+    left: 27px;
+}
+
+.title {
+    text-align: center;
+    font-size: 17.3px;
+    color: black;
+    font-weight: 600; 
+    margin-bottom: 37px;
+}
+
+.desc {
+    font-size: 15.3px;
+    line-height: 21px;
+    color: black;
+    margin-bottom: 37px;
+}
+
+.bottomtext {
+    background-color: rgb(255, 255, 255);
+}
+
+.titlefd {
+    font-size: 17.3px;
+    color: rgb(0, 0, 0);
+    font-weight: 600; 
+    margin: 17px 0 17px;
+}
+
+.flexdork {
+
+}
+
+.descbottom {
+    font-size: 15.3px;
+    line-height: 21px;
+    margin-bottom: 37px;
+}
+
+.mainflex {
+    display: flex;
+}
+
+.resultcontainer {
+    width: 550px;
+    position: relative;
+    padding-inline: 17px;
+    z-index: 1;
+    height: 700px;
+}
+
+.resultbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    background-color: #272727;
+    color: aliceblue;
+    border: 1px solid rgb(50, 50, 50);
+
+}
+
+.resultboxiv {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255);
+
+}
+
+.resultboxivmin {
+    color: rgb(255, 255, 255);
+    padding: 17px;
+    background-color: rgb(17, 17, 17);
+}
+
+.resultboxivres {
+    padding: 17px;
+}
+
+.resultboxgreeks {
+    display: flex;
+}
+.resultboxgreek {
+    margin-inline: 5px;
+}
+
+.switcher {
+    display: flex;
+    justify-content: end;
+}
+
+.b_container {
+    margin: 2.5px;
+    cursor: pointer;
+}
+
+.form {
+    width: fit-content;
+    position: relative; 
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 7px;
+    background-color: rgb(43, 43, 43);
+}
+
+.topbox {
+    display: flex;
+    padding: 7px;
+    padding-left: 17px;
+}
+
+.bottombox {
+    border-radius: 7px;
+    padding: 7px;
+    padding-left: 17px;
+    background-color: rgb(38, 37, 37);
+}
+
+.switch {
+    padding:3.3px;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgb(178, 178, 178);
+    background-color: #373737;
+    border-radius: 2px;
+}
+
+.switch:hover {
+    background-color: rgba(245, 245, 245, 0.596);
+}
+
+.switch_a {
+    padding: 3.3px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #303030;
+    color: rgb(255, 255, 255);
+    border-radius: 2px; 
+}
+
+.switch_a:hover {
+    background-color: rgba(229, 229, 229, 0.857);
+}
+
+.chlabel {
+    color: rgb(177, 177, 177);
+}
+
+.chart {
+    padding: 12px;
+    margin-top: 15px;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 3px;
+}
+
+.slidercont {
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 7px;
+    background-color: #222222;
+    padding: 10px;
+}
+
+.tslider {
+    padding-inline: 10px;
+}
+
+.tsliderbottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -7.3px;
+    margin-bottom: 12px;
+}
+
+.tsliderside {
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+}
+
+.tindcont {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(133, 133, 133);
+}
+
+.swi_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.swi {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+}
+
+.swi_a {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 133, 255);
+}
+
+.topboext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    width: 127px;
+}
+
+.columndiv {
+    z-index: 900;
+    top: 125.5px;
+    position: absolute;
+}
+
+.text {
+    width: 115px;
+    margin-bottom: 5px;
+    background-color: #f8f7f7;
+    border-radius: 4px;
+}
+
+.selector {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    color: rgb(81, 81, 81);
+}
+
+.button_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0); ;
+    padding-right: 7px;
+    width: 317px;
+}
+
+.resetbuttonbox {
+    width: 317px;
+    padding: 7px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.resetbutton {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+.request_button {
+    height: 37px;
+    width: 90px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px inset rgb(179, 179, 179);
+    border-radius: 7px;
+    color: rgb(50, 50, 50);
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.request_button_changed {
+    height: 37px;
+    width: 90px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid rgb(177, 77, 77);
+    box-shadow: 0 0 2px 1px  rgb(177, 77, 77);
+    border-radius: 7px;
+    color: rgb(50, 50, 50);
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+
+.radio {
+    position: relative;
+    display: flex;
+    margin-top: 22.8px;
+    margin-bottom: 12.5px;
+}
+
+@media screen and (max-width: 1000px) { 
+    .mainflex {
+        flex-direction: column;
+    }
+
+    .resultcontainer {
+        width: 500px;
+        padding-inline: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) { 
+    .main {
+        padding: 0px; 
+    }
+
+    .backbutton {
+        position: relative;
+        cursor: pointer;
+        font-size: 27px;
+        color: rgb(227, 227, 227);
+        margin-left: 20px;
+        top:0;
+        left: 0;
+    }
+
+    .flexdork {
+        flex-direction: column;
+    }
+
+    .title {
+        padding: 30px 39px 0;
+    }
+
+    .desc {
+        padding: 0 39px 0;
+    }
+
+    .form {
+        margin: auto;
+    }
+
+    .button_cont {
+        margin: auto;
+    }
+
+    .resetbuttonbox {
+        margin: auto;
+    }
+
+    .resultboxiv {
+
+    }
+
+    .mainflex {
+        flex-direction: column;
+    }
+
+    .resultcontainer {
+        width: 100%;
+        padding-inline: 3px;
+    }
+
+    .resultbox {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        font-size: 12.7px;
+        padding: 7px;
+    }
+
+    .swi {
+        font-size: 12.77px;
+    }
+    
+    .swi_a {
+        font-size: 12.77px;
+    }
+
+    .chlabel {
+        font-size: 12.77px;
+    }
+
+    .chart {
+        width: 100%;
+        padding: 1px;
+    }
+}
+

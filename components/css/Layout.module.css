@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(27, 27, 27);
+}
+
+.sub {
+    width: 1000px;
+}
+
+@media screen and (max-width: 1100px) {  
+    .sub {
+        width: 100%;
+    } 
+}

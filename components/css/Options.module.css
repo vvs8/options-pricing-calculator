@@ -1,0 +1,1019 @@
+.main {
+    padding: 37px 17px 33px;
+    background: white;
+}
+
+.submain {
+
+}
+
+.title {
+    text-align: center;
+    font-size: 17.3px;
+    color: black;
+    font-weight: 600; 
+    margin-bottom: 37px;
+}
+
+.title2 {
+    font-size: 17.3px;
+    color: black;
+    font-weight: 600; 
+    margin-bottom: 17px;
+}
+
+.desc {
+    font-size: 15.3px;
+    line-height: 21px;
+    color: black;
+    margin-bottom: 37px;
+}
+
+.strategy {
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.strategydesc {
+    font-size: 15px;
+    margin-bottom: 37px;
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    background: white;
+    max-width: 500px;
+    position: relative;
+}
+
+.stockbox {
+    display: flex;
+}
+
+.topbox {
+    display: flex;
+}
+
+.textcover {
+    margin-bottom: 17px;
+}
+
+.textc {
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.text {
+    width: 115px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.textstrike {
+    width: 117px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.datefield {
+    width: 147px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.timefield {
+    width: 137px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px; 
+}
+
+.lockicon {
+    cursor: pointer;
+    color: #bcb8b8;
+    font-size: 21.8px;
+    position: absolute;
+    left: 105px;
+    top: 20px;
+}
+
+.lockqty {
+    position: relative;
+    display: flex;
+}
+
+.textqty {
+    width: 105px;
+    margin-left: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.timeflag {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #eaeaea;
+    cursor: pointer;
+}
+
+.mainform {
+    padding: 7px;
+    
+}
+
+.optioninfoholder {
+    display: flex;
+    width: 447.5px;
+}
+
+.optioninfo {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    overflow: hidden;
+    background-color: rgb(50, 50, 50);
+    padding: 3px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(30, 24, 24);
+    clip-path: polygon(0 0, 93% 0, 100% 100%, 0% 100%);
+    width: 200px;
+}
+
+.holder {
+    position: relative;
+    border: 1px solid rgb(30, 24, 24);
+    border-radius: 0px 5px 5px 5px;
+    padding: 10px 15px 10px 15px;
+    width: 461.5px;
+    background-color: #272727;
+}
+
+.columnholder {
+    display: flex;
+    flex-direction: row;
+}
+
+.columnholdersec {
+    display: flex;
+}
+
+.column {
+    width: 147px;
+    margin-right: 5px;
+}
+
+.centralcolumn {
+    width: 127px;
+    margin-right: 5px;
+}
+
+.columnlast {
+    width: 147px;
+    margin-right: 5px;
+}
+
+.columnshares {
+    width: 200px;
+    margin-right: 5px;
+}
+
+.obottombox {
+    position: relative;
+}
+
+.ivbox {
+    width: 180px;
+    display: flex;
+    color: #dfdfdf;
+}
+
+.openpricelink {
+    position: absolute;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: underline;
+    top: 3px;
+    right: 7px;
+    color: #f7f7f7;
+}
+
+.ivlabel {
+    color: #dfdfdf;
+    font-weight: 600;
+    margin-left: 3.7px;
+    margin-right: 7.7px;
+}
+
+.labeltop {
+    display: inline-block;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 3.7px;
+}
+
+.label {
+    display: inline-block;
+    font-size: 15px;
+    color: #dfdfdf;
+    font-weight: 600;
+    padding-bottom: 3.7px;
+}
+
+.labelqty {
+    display: inline-block;
+    font-size: 14.5px;
+    color: #dfdfdf;
+    font-weight: 600;
+    padding-left: 39.77px;
+    padding-bottom: 3.7px;
+}
+
+.request_button {
+    position: absolute;
+    bottom: 1px;
+    right: 50px;
+    height: 37px;
+    width: 90px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px inset rgb(179, 179, 179);
+    border-radius: 7px;
+    color: rgb(50, 50, 50);
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.request_button_changed {
+    position: absolute;
+    bottom: 1px;
+    right: 50px;
+    height: 37px;
+    width: 90px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid rgb(177, 77, 77);
+    box-shadow: 0 0 2px 1px  rgb(177, 77, 77);
+    border-radius: 7px;
+    color: rgb(50, 50, 50);
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+
+.request_button:hover {
+    background-color: rgb(255, 255, 255); 
+}
+
+.request_button_changed:hover {
+    background-color: rgb(255, 255, 255); 
+}
+
+.button_cont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addcont {
+    align-items: center;
+    display: flex;
+    margin-top: 7px;
+    margin-left: 12px;
+}
+
+.add {
+    display: inline-block;
+    width: 100px;
+}
+
+.addcontlabel {
+    margin-left: 5px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.addbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfdfdf;
+    border: 1px solid gray; 
+    font-size: 19px;
+    height: 30px;
+    width: 30px;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.addbutton:hover {
+    background-color: #ffffff;
+}
+
+.removebutton {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    color: rgb(147, 147, 147);
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.selector {
+    width: 80px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    background-color: #383838;
+    border: 1px solid rgb(72, 72, 72);
+    border-radius: 4px;
+    color: rgb(248, 248, 248);
+}
+
+.radio {
+    position: relative;
+    display: flex;
+    margin-top: 19px;
+    margin-bottom: 12.5px;
+}
+
+.topradioc {
+    font-size: 12.5px;
+    font-weight: 600;
+    padding: 0;
+    color: darkgrey;
+}
+
+.radioc {
+    font-size: 12.5px;
+    font-weight: 600;
+    padding: 0;
+    color: #dfdfdf;
+}
+
+.radiocc {
+    top: 3px;
+    position: absolute;
+    left: 98px;
+}
+
+.radioccstock {
+    top: 3px;
+    position: absolute;
+    left: 137px;
+}
+
+.sharesrow {
+    position: relative;
+    display: flex;
+}
+
+.shares {
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.ivres {
+    margin-right: 5px;
+}
+
+.quant {
+    width: 70px;
+    font-size: 15px;
+    padding: 1px;
+}
+
+.ivswitch {
+    margin-left: 1px;
+}
+
+.droptodown {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: inset 0 0 0 200px rgb(255, 255, 255);
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 0 0 7px 0;
+    z-index: 2000;
+}
+
+.closebutt {
+    font-size: 17.7px;
+    position: absolute;
+    color: #55555f;
+    top: 2px;
+    right: 2px;
+    cursor: pointer;
+}
+
+.total {
+    display: flex;
+    margin-right: 10px;
+    justify-content: end;
+}
+
+.dropdownrow {
+    border-bottom: 1px solid black;
+}
+
+.dropdownrow > td {
+    border-bottom: 1px solid black;
+}
+
+.mapbox {
+    max-width: 1000px;
+    min-height: 370px;
+    position: relative; 
+    margin-top: 30px;
+}
+
+.map {
+    width: fit-content;
+    max-width: 100%;
+    padding: 12px;
+    padding-inline: 20px;
+    margin-top: 30px;
+    background: rgb(27, 27, 27);
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+}
+
+.undermap {
+    display: flex;
+    flex-direction: column;
+}
+
+.timerange {
+    color: rgb(237, 237, 237);
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid rgb(78, 78, 87);
+    background-color: #272727;
+    border-radius: 12px;
+    padding: 6px;
+    width: fit-content
+}
+
+.timeinp {
+    width: 110px;
+    font-size: 15px;
+    padding: 1px;
+}
+
+.pricerange {
+    color: rgb(237, 237, 237);
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid rgb(78, 78, 87);
+    background-color: #272727;
+    border-radius: 12px;
+    padding: 6px;
+    width: fit-content
+}
+
+.ivchangea {
+    position: relative;
+    top: 3px;
+    margin-left: 27px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+.ivchangea2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ff5900;
+    margin-left: 27px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.buttons2 {
+    background-color: #272727;
+    padding-top: 6px;
+    color: #ececec;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 3px;
+}
+
+.button3 {
+    margin: 3.5px;
+    cursor: pointer;
+}
+
+.scrollbuttcont {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scrollbuttl {
+    cursor: pointer;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 27px;
+}
+.scrollbuttr {
+    cursor: pointer;
+    color: #fff;
+    margin-right: 5px;
+    font-size: 27px;
+}
+
+.mapcontainer {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.mapcontainer2 {
+    border-radius: 2px;
+    width: fit-content;
+}
+
+.maptable {
+    border-collapse: collapse;   
+}
+
+.mapdisplayselect {
+    padding: 5px;
+    color: #ececec;
+    cursor: pointer;
+    border: 1px solid rgb(78, 78, 87);
+    background-color: #272727;
+    font-weight: 600;
+    border-radius: 3px; 
+}
+
+.ivselect {
+    position: relative;
+    padding: 5px;
+    padding-left: 8px;
+    font-size: 14px;
+    color: #ececec;
+    border: 1px solid rgb(78, 78, 87);
+    background-color: #272727;
+    font-weight: 600;
+    border-radius: 3px; 
+    cursor: pointer;
+}
+
+.it {
+    background-color: rgb(27, 27, 27);
+    min-width: 50px;
+    padding: 1px;
+    font-weight: 600;
+    border-bottom: 2px solid  rgb(152, 152, 152);
+}
+
+.it1 {
+    background-color: rgb(105, 105, 105);
+    font-weight: 600;
+}
+
+.it2 {
+    background-color: rgb(55, 55, 55);
+    font-weight: 600;
+}
+
+.itmonths {
+    color: #f8f8f8;
+    font-size: 14px;
+}
+
+.itmessage {
+    color: #ff5900;
+    margin-top: 1px;
+    font-size: 9px;
+    cursor: pointer;
+    height: 7px;
+}
+
+.itdates{
+    color: #f8f8f8;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 9.7px;
+    height: 7px;
+}
+
+.itweeks{
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 9px;
+    height: 7px;
+}
+
+.itweeksends {
+    color: #878787;
+    margin-top: 5px;
+    font-size: 9px;
+    height: 7px; 
+}
+
+.iprice {
+    font-size: 17px;
+    text-indent: 3.5px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.iprice:hover {
+    outline: 1.2px solid rgb(255, 111, 0);
+    cursor: pointer;
+}
+
+.matrixdeliner {
+    display:block;
+    border-top: 1.7px solid rgb(53, 53, 53);
+}
+
+.sprice {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0px;
+    font-size: 15px;
+    background:  rgb(27, 27, 27);
+    padding-left: 3px;
+    padding-right: 7px;
+    color: #f7f7f7;
+}
+
+.stime {
+    position: -webkit-sticky;
+    position: sticky;
+    right: 0px;
+    font-size: 12.5px;
+    background:  rgb(27, 27, 27);
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #f7f7f7;
+}
+
+.stockset {
+    color: black;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.stockseta {
+    display: flex;
+    font-size: 12.9px;
+    text-decoration: underline;
+    width: fit-content;
+}
+
+.stockseta2 {
+    font-size: 15px;
+    margin-top: 1px;
+    margin-right: 1px;
+}
+
+.divset {
+    position: relative;
+    color:#bcb8b8;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+.tslider {
+    position: absolute;
+    user-select: none;
+    top: 45px;
+    left: 97px;
+    background-color: #272727;
+    border: 1px solid rgb(78, 78, 87);
+    border-radius: 3px;
+    width: 270px;
+    margin-left: 47.7px;
+    z-index: 2000;
+    padding: 12px;
+    padding-top: 20px;
+}
+
+.tsliderbuttons {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    color: #a7a7a7;
+}
+
+.tsliderbottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -7.3px;
+}
+
+.tsliderside {
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+}
+
+.tindcont {
+    margin-bottom: -5px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(133, 133, 133);
+}
+
+.info {
+    cursor: pointer;
+    font-size: 14.7px;
+}
+
+.infomap {
+    cursor: pointer;
+    font-size: 14.7px;
+    color: #dfdfdf;
+    margin-left: 3px;
+}
+
+.settingscont {
+    margin-top: 21.7px;
+    position: relative;
+    background-color: #343434;
+    cursor: pointer;
+    height: 38px;
+    border-radius: 3px;
+    width: 38px;
+    transition: height 0.5s ease, width 0.5s ease;
+    
+}
+
+.setta {
+    height: 110%;
+    color: rgb(157, 157, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settaicon {
+    font-size: 21px;
+}
+
+.settingsexpanded {
+    padding: 10px;
+    height: 320px;
+    width: 159px;
+}
+
+.showchartbutton {
+    position: relative;
+    padding: 7px;
+    background-color: #282828;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 177px;
+    border: 1px solid rgb(57, 57, 57);
+}
+
+.showcharticon {
+    transform: translateY(3px);
+    margin-left: 2px;
+}
+
+.showcharticonarrow {
+    position: absolute;
+    font-size: 30px;
+    left: 140px;
+    bottom: 1px;
+}
+
+.chartbox {
+    transition: height 0.5s ease, width 0.5s ease;
+    height: 0;
+}
+
+.chartboxexp {
+    height: 500px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(103, 103, 103, 0.831);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.overlaycontent {
+    position: absolute;
+    top: 70px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 7px;
+    width: 350px;
+    text-align: center;
+    border: 3px solid rgb(0, 136, 255);
+}
+
+.overlaylink {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(0, 136, 255);
+}
+
+.optionsdata {
+    font-size: 15px;
+    border: 1px solid rgb(153, 153, 153);
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin-left: 3px;
+}
+
+.optionsdata th {
+    color:  black;
+    border: 1px solid #b6b6b6;
+    padding: 8px;
+}
+
+.optionsdata td {
+    color: black;
+    border: 1px solid #b6b6b6;
+    padding: 8px;
+}
+
+@media screen and (max-width: 700px) { 
+
+    .main {
+        padding: 0px;
+    }
+    
+    .title {
+        padding: 30px 20px 0;
+    }
+
+    .title2 {
+
+    }
+
+    .desc {
+        padding: 0 20px 0;
+    }
+
+    .strategy {
+        padding-left: 21px; 
+    }
+
+    .strategydesc {
+        padding-inline: 21px; 
+    }
+
+    .overform {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainform {
+        padding-left: 15px;
+    }
+
+    .optioninfoholder {
+        width: 330px;
+    }
+
+    .optioninfo {
+        width: 170px;
+    }
+
+    .holder {
+        padding-top: 20px;
+        padding-left: 22px;
+        padding-right: 12px;
+        width: 330px;
+    }
+
+    .form {
+        width: fit-content;  
+    }
+
+    .columnholder {
+        flex-direction: column;
+    }
+
+    .columnholdersec {
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 137px;
+        margin-right: 0px;
+    }
+
+    .centralcolumn {
+        width: 110px;
+        margin-right: 0px;
+    }
+
+    .columnlast {
+        display: flex;
+        margin-right: 0px;
+    }
+
+    .columnshares {
+        width: fit-content;
+        margin-right: 0px;
+    }
+
+    .removebutton {
+        left: 3px;
+    }
+
+    .textqty {
+        margin-left: 37px;
+        width: 100px;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+
+    .labelqty {
+        font-size: 14px;
+        padding-left: 37px;
+    }
+
+    .lockicon {
+        left: -27px;
+    }
+
+    .buttons {
+        padding-top: 1px;
+        padding-left: 10px;
+    }
+
+    .mapbox {
+        min-width: 300px;
+        padding: 3px;
+    }
+
+    .map {
+        margin-top: 37px;
+        padding: 0px;
+    }
+
+    .sprice {
+        font-size: 12px;
+        padding-right: 3px;
+    }
+
+    .request_button {
+        bottom: 5px;
+        right: 17px;
+    }
+    
+    .request_button_changed {
+        bottom: 5px;
+        right: 21px;
+    }
+
+    .tslider {
+        top: 33px;
+        left: 7px;
+    }
+
+    .undermap {
+        padding-left: 12px;
+    }
+
+    .optionsdata {
+        font-size: 14px;
+        margin: auto;
+    }
+
+    .showchartbutton {
+        margin-left: 12px;
+    }
+
+    
+}
+
+
+
+
