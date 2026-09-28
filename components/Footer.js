@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={styles.main}>
       <div >
-        <h4 className={styles.title}>Ultimate Options Calculator © 2025</h4>
+        <h4 className={styles.title}>Options Pricing Calculator © 2026</h4>
         <br/>
         <div className={styles.lowerflex}>
           <small className={styles.link}>

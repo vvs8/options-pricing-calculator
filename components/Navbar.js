@@ -95,11 +95,7 @@ const Navbar = () => {
                 <div className={styles.navbar_logo}>
                     <Link href="/" style={{ textDecoration: 'none' }} onClick={handleClickLogo}>
                         <div className={styles.navbar_image}>
-                            <Image
-                                src="/metalogonav.png"
-                                fill={true}
-                                alt="Logo"
-                            />
+                            Options Pricing Calculator
                         </div>
                         <div className={!(isActive(undefined)) ? styles.logodiv : styles.logodiv_a}>
                       

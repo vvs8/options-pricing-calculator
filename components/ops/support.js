@@ -1,4 +1,4 @@
-import { impliedVolatilityCall, impliedVolatilityPut } from '../../f/bs'
+import { impliedVolatilityCall, impliedVolatilityPut } from '../../formulas/formulas'
 import dayjs from 'dayjs'
 var utc = require('dayjs/plugin/utc')
 dayjs.extend(utc)

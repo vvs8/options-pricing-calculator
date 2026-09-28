@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { showError } from '../../components/ops/error';
 import { validatorIV } from '../../components/ops/validator';
-import { impliedVolatilityCall, impliedVolatilityPut } from '../../f/bs';
+import { impliedVolatilityCall, impliedVolatilityPut } from '../../formulas/formulas';
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
 import dayjs from 'dayjs'

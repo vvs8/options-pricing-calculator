@@ -16,27 +16,26 @@
     position: relative;
     width: fit-content;
     cursor: pointer;
+    margin-left: 5px;
     margin-right: 10px;
   }
 
   .navbar_image {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+   
+    margin-top: 15px;
     position: relative;
-    height: 71px;
-    width: 71px;
+
+
   }
 
   .logodiv {
     display: none;
   }
 
-  .logodiv_a {
-    position: absolute;
-    left: 5px;
-    bottom: -2.7px;
-    width: 59px;
-    transition: all 0.3s ease-out;
-    border-bottom: 3.1px solid rgb(255, 255, 255);
-  }
+  
 
   .fa_typo3 {
     top: 3px;
@@ -120,8 +119,7 @@
   @media screen and (max-width: 700px) {
 
     .navbar_image {
-      height: 55px;
-      width: 55px;
+
     }
   
     .nav_menu {
@@ -129,11 +127,11 @@
     }
 
     .navbar_container {
-      padding-bottom: 5px;
+      padding: 10px;
     }
 
     .navbar_logo {
-      padding-top: 3px;
+
       margin-left: 12px;
     }
 

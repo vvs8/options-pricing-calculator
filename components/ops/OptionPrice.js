@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { PriceContext } from '../state/PriceContext'
-import {call, put, callDataset, callTimeDataset, callVDataset, putDataset, putTimeDataset, putVDataset} from '../../f/bs'
+import {call, put, callDataset, callTimeDataset, callVDataset, putDataset, putTimeDataset, putVDataset} from '../../formulas/formulas'
 import { convertYtm } from '../../components/ops/support';
 import LineChart from '../../components/charts/LineChart';
 import { showError } from '../../components/ops/error';

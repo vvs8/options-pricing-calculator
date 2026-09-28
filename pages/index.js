@@ -18,7 +18,7 @@ const  Home = () => {
     <>
       {head()}
       <div className={styles.main}>
-        <div className={styles.maintitle}>A collection of tools to make your options journey more comprehensive</div>
+        <div className={styles.maintitle}>A collection of tools for options pricing and analysis</div>
         <div>
           <div className={styles.wide}>
             <div className={styles.box}>
